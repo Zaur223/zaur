@@ -1,0 +1,872 @@
+body {
+    margin: 0;
+    background-color: #CFD2C6;
+    width: 1900px;
+
+}
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #CFD2C6;
+    background-size: cover;
+    
+}
+    
+
+.attention {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(240,234,214, 0.6);
+    top: 25%;
+    left: 25%;
+    position: fixed;
+    border-radius: 40px;
+    backdrop-filter: blur(3px);
+    z-index: 10;
+     
+}
+
+.close_window {
+    position: fixed;
+    z-index: 11;
+    color: black;
+    font-size: 45px;
+    top: 27%;
+    left: 72%;
+    cursor: pointer; 
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+}
+
+.attentext {
+    position: absolute;
+    display: flex;
+    top: 40%;
+    left: 31%;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.burger {
+    margin: 5px 20px 0 0;
+    display: block;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 10px;
+    padding-top: 2px;
+
+}
+
+.header_items {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.header_left {
+    display: flex;
+}
+
+.header_menu {
+    margin: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #36392D;
+}
+
+.header_team {
+    margin: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+}
+
+
+
+.res_name {
+    font-family: 'Elsie Swash Caps', cursive;
+    font-size: 32px;
+    color: #36392D;
+}
+
+.header_left {
+    margin-left: 80px;
+}
+
+
+.header_right {
+    display: flex;
+    margin-right: 80px;
+}
+
+.header_events {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 10px 20px;
+
+}
+
+.header_contact {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 10px 20px;
+}
+
+.header_en {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin: 10px 20px;
+
+}
+
+.header_cont {
+    background-color: #CFD2C6;
+    display: flex;
+    justify-content: space-between;
+    
+    padding-left:230px;
+    padding-top: 80px;
+    padding-bottom: 90px;
+    
+}
+
+.cont_left {
+    font-family: 'Poller One', cursive;
+    font-size: 64px;
+    color: #36392D;
+}
+
+.cont_right {
+    margin-right: 275px;
+    font-size: 18px;
+    color: #36392D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+
+
+.cont_btn {
+    display: flex;
+    background-color: #CFD2C6;
+
+}
+
+.btn_left {
+    margin: 0 24px 0 83px;
+    cursor: pointer;
+}
+
+.btn_right {
+    cursor: pointer;
+}
+
+.cont_btn {
+    padding-bottom: 40px;
+}
+
+.gal_items {
+    background-color: #CFD2C6;
+    display: flex;
+    justify-content: center; 
+    padding-bottom: 77px;
+}
+
+
+
+
+.block_menu {
+    background-color: #CFD2C6;
+}
+
+.menu {
+    font-size: 64px;
+    font-family: 'Poller One', cursive;
+    color: #36392D;
+    text-align: center;
+    margin-bottom: 37px;
+}
+
+.menu_text {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #36392D;
+    margin-bottom: 30px;
+}
+
+.menu_items {
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+    margin-bottom: 40px;
+
+}
+
+.appetizers {
+    border: 1px solid #B7BCA9;
+    font-size: 16px;
+    padding: 16px 40px;
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
+    transition: color 2s;
+    
+}
+
+.pasta {
+    border: 1px solid #B7BCA9;
+    font-size: 16px;
+    padding: 16px 40px;
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
+    transition: color 2s;
+    
+}
+
+.pizza {
+    border: 1px solid #B7BCA9;
+    font-size: 16px;
+    padding: 16px 40px;
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
+    transition: color 2s;
+    
+}
+
+.salads {
+    border: 1px solid #B7BCA9;
+    font-size: 16px;
+    padding: 16px 40px;
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
+    transition: color 2s;
+    
+}
+
+.soups {
+    border: 1px solid #B7BCA9;
+    font-size: 16px;
+    padding: 16px 40px;
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
+    transition: color 2s;
+    
+}
+
+.desserts {
+    border: 1px solid #B7BCA9;
+    font-size: 16px;
+    padding: 16px 40px;
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
+    transition: color 2s;
+    
+    
+}
+
+
+.appetizers:hover {
+    background-color: #B7BCA9;
+}
+
+.pasta:hover {
+    background-color: #B7BCA9;
+}
+
+.pizza:hover {
+    background-color: #B7BCA9;
+}
+
+.salads:hover {
+    background-color: #B7BCA9;
+}
+
+.soups:hover {
+    background-color: #B7BCA9;
+}
+
+.desserts:hover {
+    background-color: #B7BCA9;
+}
+
+
+.menu_items {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin-bottom: 75px;
+    margin-right: 124px;
+}
+
+.price_block1 {
+    text-align: center;
+}
+
+.price_text1 {
+    margin: 16px 0;
+    font-family: 'Poller One', cursive;
+    font-size: 16px;
+}
+
+.price1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+
+.price_block2 {
+    text-align: center;
+}
+
+.price_text2 {
+    margin: 16px 0;
+    font-family: 'Poller One', cursive;
+    font-size: 16px;
+}
+
+.price2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+
+.price_block3 {
+    text-align: center;
+}
+
+.price_text3 {
+    margin: 16px 0;
+    font-family: 'Poller One', cursive;
+    font-size: 16px;
+}
+
+.price3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+
+.price_block4 {
+    text-align: center;
+}
+
+.price_text4 {
+    margin: 16px 0;
+    font-family: 'Poller One', cursive;
+    font-size: 16px;
+}
+
+.price4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+
+.menu_photo {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.menu_photo:hover {
+    box-shadow: 0 0 10px;
+}
+
+
+.menu_photo2 {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.menu_photo2:hover {
+    box-shadow: 0 0 10px;
+}
+
+
+.menu_photo3 {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.menu_photo3:hover {
+    box-shadow: 0 0 10px;
+}
+
+.menu_photo4 {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.menu_photo4:hover {
+    box-shadow: 0 0 10px;
+}
+
+
+
+
+.drink_block {
+    display: flex;
+    align-items: center;
+    margin: 0 205px;
+    justify-content: space-between;
+}
+
+.search_drink {
+    display: flex;
+
+}
+
+.drink_photo {
+    margin-right: 40px;
+}
+
+
+.search_pointer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.search_left {
+    cursor: pointer;
+}
+
+.search_right {
+    margin-top: 35px;
+    cursor: pointer;
+}
+
+
+.wine {
+    font-size: 64px;
+    font-family: 'Poller One', cursive;
+    color: #9FA58C;
+    padding: 40px 0;
+    width: 570px;
+    border-bottom: 2px solid #9FA58C;
+
+}
+
+.cocktails {
+    font-size: 64px;
+    font-family: 'Poller One', cursive;
+    color: #36392D;
+    padding: 40px 0;
+    width: 570px;
+    border-bottom: 2px solid #9FA58C;
+
+}
+
+.beer {
+    font-size: 64px;
+    font-family: 'Poller One', cursive;
+    color: #9FA58C;
+    padding: 40px 0;
+    width: 570px;
+    border-bottom: 2px solid #9FA58C;
+
+}
+
+
+.drink_text_price {
+    margin: 16px 0 0 206px;
+    padding-bottom: 80px;
+}
+
+.drink_name {
+    margin-bottom: 16px;
+    font-family: 'Poller One', cursive;
+    font-size: 20px;
+    color: #36392D;
+}
+
+.drink_price {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 16px;
+}
+
+.drink_text {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.ourteam_block {
+    background-color: #B7BCA9;
+}
+
+.ourteam_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 205px;
+    align-items: center;
+}
+
+.ourteam {
+    font-family: 'Poller One', cursive;
+    font-size: 64px;
+    color: #36392D;
+}
+
+.ourteam_text {
+    font-size: 18px;
+}
+
+
+.ourteam_pointer {
+    display: flex;
+    margin-left: 80px;
+}
+
+
+.ourteam_left {
+    margin-right: 26px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+
+.ourteam_right {
+    cursor: pointer;
+}
+
+
+
+.ourteam_johnathan {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ourteam_johnathan:hover {
+    box-shadow: 0 0 10px black;
+}
+
+
+.ourteam_bryan {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ourteam_bryan:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.ourteam_adam {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ourteam_adam:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.ourteam_putin {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ourteam_putin:hover {
+    box-shadow: 0 0 10px black;
+}
+
+
+
+
+.personnel_block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 144px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+
+.ourteam_name1 {
+    font-family: 'Poller One', cursive;
+    color: #36392D;
+    margin-top: 16px;
+    font-size: 20px;
+}
+
+.ourteam_cook1 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 16px;
+
+}
+
+.ourteam_text1 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 16px;
+}
+
+
+.ourteam_name2 {
+    font-family: 'Poller One', cursive;
+    color: #36392D;
+    margin-top: 16px;
+    font-size: 20px;
+}
+
+.ourteam_cook2 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 16px;
+
+}
+
+.ourteam_text2 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 16px;
+}
+
+
+.ourteam_name3 {
+    font-family: 'Poller One', cursive;
+    color: #36392D;
+    margin-top: 16px;
+    font-size: 20px;
+}
+
+.ourteam_cook3 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 16px;
+
+}
+
+.ourteam_text3 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 16px;
+}
+
+
+.ourteam_name4 {
+    font-family: 'Poller One', cursive;
+    color: #36392D;
+    margin-top: 16px;
+    font-size: 20px;
+}
+
+.ourteam_cook4 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 16px;
+
+}
+
+.ourteam_text4 {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 16px;
+}
+
+
+
+
+.event_block {
+    background-color: #CFD2C6;
+}
+
+.events {
+    font-family: 'Poller One', cursive;
+    color: #36392D;
+    font-size: 64px;
+    padding: 80px 229px;
+}
+
+.event_gal_block {
+    margin: 0 80px;
+    padding-bottom: 80px;
+}
+
+.eventgal1 {
+    display: flex;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.event_fon1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: 'Poller One', cursive;
+    color: white;
+    position: absolute;
+    width: 868px;
+    height: 637px;
+    background-color: #959D7B;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.eventgal2 {
+    display: flex;
+    position: relative;
+
+}
+
+.event_fon2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: 'Poller One', cursive;
+    color: white;
+    position: absolute;
+    width: 868px;
+    height: 637px;
+    background-color: #959D7B;
+    opacity: 0;
+    transition: 0.5s;
+
+}
+
+
+.event_gal3 {
+    margin-right: 25px;
+    position: relative;
+}
+
+.event_fon3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: 'Poller One', cursive;
+    color: white;
+    position: absolute;
+    width: 868px;
+    height: 637px;
+    background-color: #959D7B;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.event_gal4 {
+    position: relative;
+}
+
+.event_fon4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-family: 'Poller One', cursive;
+    color: white;
+    position: absolute;
+    width: 868px;
+    height: 637px;
+    background-color: #959D7B;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.event_fon1:hover {
+    opacity: 0.9;
+}
+
+.event_fon2:hover {
+    opacity: 0.9;
+}
+
+.event_fon3:hover {
+    opacity: 0.9;
+}
+
+.event_fon4:hover {
+    opacity: 0.9;
+}
+
+
+.event_gal1 {
+    margin-right: 25px;
+}
+
+
+
+
+
+.reg_block {
+    background-color: #B7BCA9;
+}
+
+.reg_title {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+    margin-left: 80px;
+    padding: 70px 0;
+}
+
+.reg_nav {
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.reg_res_name {
+    font-size: 32px;
+    font-family: 'Elsie Swash Caps', cursive;
+    margin-right: 20px;
+}
+
+.email_text {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+
+input {
+    outline: none;
+    padding: 16px;
+    background-color: #B7BCA9;
+    border-bottom-color: black;
+    border-right: hidden;
+    border-left: hidden;
+    border-top: hidden;
+}
+
+
+.icons {
+    display: flex;
+    font-size: 33px;
+    gap: 40px;
+    margin-left: 890px;
+    padding-bottom: 90px;
+};
+
+
+
